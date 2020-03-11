@@ -1,0 +1,73 @@
+/*BODY*/
+body{
+    background-color: #0061ff;
+    font-style: oblique;
+    font-size: 18px;
+}
+/*H1*/
+h1{
+    text-align: center;
+    text-decoration: underline wavy red;
+}
+/*ERRORS*/
+#errors{
+    color: white;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 20px;
+
+}
+
+/*FORM DATA*/
+    form, .formData{
+    width: 580px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin: 50px auto;
+    color: white;
+    background-color: #ff0004;
+    border-radius: 20px;
+}
+
+/*LABELS*/
+label{
+    width: 170px;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+}
+input:not([type="radio"]), select{
+    font-size: 16px;
+    font-family: 'Kalam', cursive;
+    padding: 5px 10px;
+}
+input:not([type="radio"]){
+    width: 350px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+select{
+    width: 373px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+input[type="submit"]{
+    width: 100%;
+    font-size: 38px;
+    background-color: #462fbc;
+    color: white;
+    font-family: 'Kalam', cursive;
+    border: 0px;
+    padding: 10px;
+    height: 70px;
+    box-shadow: 6px 6px 0px #1a067f;
+    border-radius: 12px;
+}
+input[type="submit"]:active{
+    box-shadow: -4px -4px 0px #1a067f;
+}
+
