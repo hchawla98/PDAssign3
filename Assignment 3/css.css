@@ -1,0 +1,116 @@
+html{
+	background-color: blue;
+}
+
+h1{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+
+body
+{
+	text-align: center;
+	font-size: 16px;
+	margin: 90px;
+	background-color: red;
+	padding: 50px;
+	padding-bottom: 100px;
+}
+
+button {
+ 	background-color: white;
+ 	padding: 15px 32px;
+ 	font-size: 35px;
+}
+
+
+
+button:hover {
+  background-color: blue; /* Green */
+  color: white;
+}
+
+
+
+main{
+	background-color: blue;
+}
+
+/*LABELS*/
+label{
+    width: 170px;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+}
+input:not([type="radio"]), select{
+    font-size: 16px;
+    font-family: 'Kalam', cursive;
+    padding: 5px 10px;
+}
+input:not([type="radio"]){
+    width: 350px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    font-size: 23px;
+    background-color: #462fbc;
+    color: white;
+    font-family: 'Kalam', cursive;
+    border: 0px;
+    padding: 10px;
+    height: 50px;
+    box-shadow: 6px 6px 0px #1a067f;
+    border-radius: 12px;
+    width: 150px;
+}
+input[type="submit"]:active{
+    box-shadow: -4px -4px 0px #1a067f;
+}
+
+table
+{
+	font-family: arial, sans-serif;
+	border: 3px solid black;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+
+td, th
+{
+	border: 1px solid #DDDDDD;
+	padding: 8px;
+}
+
+td.text
+{
+	text-align: left;
+}
+
+tr:nth-child(even)
+{
+	background-color: #DDDDDD;
+}
+
+ form, .formData{
+    width: 580px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin: 50px auto;
+    color: white;
+    background-color: #ff0004;
+    border-radius: 20px;
+}
+.formData{
+	margin-bottom: 80px;
+}
+
+
+
+

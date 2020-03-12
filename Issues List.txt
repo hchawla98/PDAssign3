@@ -1,0 +1,2 @@
+This program needs a server to setup before running, cannot be run without server.
+Solution: Setup Xampp server on machine for a quick run.
